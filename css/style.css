@@ -1,11 +1,67 @@
-h4{
-    color:coral;
-    background-color: black;
-    font-size:30px;
+
+
+.t_trasform_uppercase{
+    text-transform: uppercase;
 }
 
-h5{
-    color: aqua;
-    background-color: brown;
-    font-size:70px;
+.t_trasform_lowercase{
+    text-transform: lowercase;
+}
+
+.t_transform_Capitalize{
+    text-transform: capitalize;
+}
+
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_underline{
+    text-decoration: underline;
+}
+
+/* .t_decor_linethrough{
+    text-decoration: line-through;
+}
+
+.t_decor_linethrough{
+    text-decoration: underline;
+}
+
+.t_decor_overline{
+ text-decoration:overline ;
+} */
+
+.t_decor_underline{
+    text-decoration: underline;
+     text-decoration:overline ;
+    text-decoration: line-through;
+
+
+}
+
+.t_decor_all{
+    text-decoration: underline overline line-through;
+    color:red;
+}
+
+.t_align_l{
+    text-align: left;
+}
+
+.t_align_r{
+    text-align: right;
+}
+
+.t_align_c{
+    text-align: center;
+}
+
+.t_shaddow{
+    color:black;
+    text-shadow: 7px 8px 9px red;
+}
+
+.t_shaddow1{
+    color:black;
+    text-shadow: 3px 4px 6px blue;
 }
