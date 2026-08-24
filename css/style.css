@@ -133,14 +133,16 @@
 .d_shadow1{
     filter: drop-shadow(5px 7px 9px blue);
     width:400px;
+    
 }
 
 .b_solid{
-    border:35px solid red;
+    box-shadow: 5px 5px 5px 5px blue ;
 }
 
 .b_dotted{
-    border :25px dotted green; 
+    border :25px dotted green;
+    border-radius: 5px 5px 5px 5px blue; 
 }
 
 .b_dashed
