@@ -236,10 +236,12 @@
 
 
  /* we can use to right, left, bottom */
-.t_linear{
-   height:600px;
-   background:radial-gradient(circle, black, red, white, blue);
-}
+/* .t_linear{
+       font-size: 100px;
+       background: linear-gradient(to right, red, black, pink, yellow);
+       background: radial-gradient(ellipse, orange,blue, red, green, yellow);
+} */
+
 /* .linear{
      font-size: 100px;
     background:linear-gradient(ro right,orange, white, green)
@@ -250,4 +252,15 @@
    /* background:radial-gradient(ellipse , orange, white, green, blue); */
       background:conic-gradient(from 120deg , orange, white, green,black, pink, blue);
 
+}
+.t_linear{
+    font-size: 100px;
+       background:radial-gradient(ellipse , pink, white, red, blue);
+
+}
+
+.t_gradient{
+    font-size:100px;
+        background: linear-gradient(to right, red, black, pink, yellow);
+    height:300px;
 }
